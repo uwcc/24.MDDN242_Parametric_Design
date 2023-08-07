@@ -1,4 +1,4 @@
-## MDDN 242 2022 Assignment 2
+## MDDN 242 2023 Assignment 2
 
 (Replace this README with information about your alphabet. This is an example.)
 
