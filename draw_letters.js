@@ -1,12 +1,12 @@
 /* these are optional special variables which will change the system */
-var systemBackgroundColor = "#caf0f8";
+var systemBackgroundColor = "#acf2e7";
 var systemLineColor = "#000090";
-var systemBoxColor = "#00c800";
+var systemBoxColor = "#C73869";
 
 /* internal constants */
-const darkBlue  = "#0077b6";
-const lightBlue  = "#90e0ef";
-const strokeColor  = "#03045e";
+const darkGreen  = "#26b29d";
+const lightGreen  = "#30dfc4";
+const strokeColor  = "#0a2d27";
 
 /*
  * Draw the letter given the letterData
@@ -26,9 +26,9 @@ function drawLetter(letterData) {
   let pos2y = 150 + letterData["offsety"];
 
   // draw two circles
-  fill(darkBlue);
+  fill(darkGreen);
   ellipse(50, 150, 75, 75);
-  fill(lightBlue);
+  fill(lightGreen);
   ellipse(pos2x, pos2y, size2, size2);
 }
 
